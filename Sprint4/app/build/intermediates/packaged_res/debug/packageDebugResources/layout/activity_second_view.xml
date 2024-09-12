@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CE8321"
+    tools:context=".SecondView">
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/oceanBlue"
+        android:titleTextColor="@color/white"
+        android:textAlignment="gravity"
+        android:elevation="14dp"
+        android:title="CONTACTO"
+        app:titleTextColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/imContact"
+        android:layout_width="353dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/im1"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="80dp"
+            android:background="@drawable/wsp_icon" />
+
+        <Button
+            android:id="@+id/btnWsp"
+            android:layout_width="132dp"
+            android:layout_height="41dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="62dp"
+            android:backgroundTint="#021C2F"
+            android:text="WHATSAPP"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="TouchTargetSizeCheck"
+            tools:layout_editor_absoluteY="267dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="444dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="80dp"
+            android:background="@drawable/insta_icon" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="132dp"
+            android:layout_height="41dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="62dp"
+            android:backgroundTint="#021C2F"
+            android:text="INSTAGRAM"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteY="267dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="512dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="59dp"
+            android:layout_marginTop="46dp"
+            android:background="@drawable/mail_icon" />
+
+        <EditText
+            android:id="@+id/etText"
+            android:layout_width="241dp"
+            android:layout_height="107dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:hint="Escriba su mensaje ..." />
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="132dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="173dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="#021C2F"
+            android:text="Enviar"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteY="267dp" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

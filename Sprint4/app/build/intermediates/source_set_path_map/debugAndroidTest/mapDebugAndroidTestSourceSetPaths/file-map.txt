@@ -1,0 +1,5 @@
+cl.bootcamp.sprint4.test.app-core-1.6.1-0 C:\Users\Casorix\.gradle\caches\transforms-4\2cb443ffdc663d09dd676afd89887a73\transformed\core-1.6.1\res
+cl.bootcamp.sprint4.test.app-androidTest-1 C:\Users\Casorix\AndroidStudioProjects\Sprint4\app\build\generated\res\resValues\androidTest\debug
+cl.bootcamp.sprint4.test.app-mergeDebugAndroidTestResources-2 C:\Users\Casorix\AndroidStudioProjects\Sprint4\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+cl.bootcamp.sprint4.test.app-mergeDebugAndroidTestResources-3 C:\Users\Casorix\AndroidStudioProjects\Sprint4\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+cl.bootcamp.sprint4.test.app-debugAndroidTest-4 C:\Users\Casorix\AndroidStudioProjects\Sprint4\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
