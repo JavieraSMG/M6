@@ -1,3 +1,0 @@
-cl.bootcamp.sprint4.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
